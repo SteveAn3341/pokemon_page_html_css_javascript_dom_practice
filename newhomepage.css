@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background to make white boxes stand out */
+    margin: 0;
+    padding: 20px;
+}
+
+.newhome {
+    display: flex;
+    justify-content: center; /* Centers the navigation container horizontally */
+}
+
+.newhome nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0;
+}
+
+.newhome nav ul li  {
+    margin: 0 40px; /* Adds space between each list item */
+}
+
+.newhome nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Changes the link color */
+}
+
+
+.welcome
+{
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    display: flex; /* This makes the boxes sit next to each other */
+    justify-content: space-around; /* Adds equal space around the boxes */
+    gap: 20px; /* Adds space between the boxes */
+    flex-wrap: wrap; /* Ensures boxes wrap to the next line if the screen is too small */
+}
+
+.box{
+    background-color:white ;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%; /* Ensures the image fits within the box */
+    height: auto; /* Keeps the image aspect ratio */
+    margin-bottom: 10px; /* Adds space between the image and text */
+}
+
+.box p {
+    color:purple; /* Dark text for contrast */
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+

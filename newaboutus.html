@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Pokémon</title>
+    <link rel="stylesheet" href="aboutstyles.css">
+</head>
+<body>
+    <header class="newhome">
+        <nav>
+            <ul>
+                <li><a href="newlogin.html">Log In</a></li>
+                <li><a href="newhome.html">Home</a></li>
+            </ul>
+        </nav>
+        <button class="attack-btn" id="attackButton" >Attack</button> <!-- Attack button -->
+    </header>
+    
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/animation/ash-ready-for-battle.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="content">
+        <h1>About Pokémon</h1>
+        <p>Pokémon are extraordinary creatures that inhabit various regions of the world. Each Pokémon has its unique traits and abilities, making them special companions for trainers.</p>
+
+        <h2>Living in the Wild</h2>
+        <p>Pokémon can be found in diverse environments, from lush forests to open seas. They thrive in their natural habitats, often in groups or packs.</p>
+
+        <h2>Capture and Friendship</h2>
+        <p>As a Pokémon trainer, you can capture Pokémon using special devices called Poké Balls. Once captured, Pokémon can become your friends and partners in adventures.</p>
+
+        <h2>Battle Together</h2>
+        <p>In Pokémon battles, trainers pit their Pokémon against each other, showcasing their unique skills. Training your Pokémon will help them grow stronger and evolve into more powerful forms.</p>
+        
+        <h2>Join the Adventure!</h2>
+        <p>Embrace the world of Pokémon and embark on an unforgettable journey filled with challenges, friendships, and battles. The adventure awaits!</p>
+    </div>
+
+    <script>
+        // Add event listener to the Attack button
+        document.getElementById('attackButton').addEventListener('click', function() {
+            alert('Pikachu, Thunder Shock! One hundred thousand volts!');
+        });
+    </script>
+</body>
+</html>
